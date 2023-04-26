@@ -9,162 +9,162 @@ function calcularMonto() {
     if (pesoMascota === "menor2" && rsh === "hasta40mayor65") {
         if (tipoServicio === "conCenizas") {
             totalFinal = 0;
-            montoAhorrado = 70000;
+            montoAhorrado = 70.000;
         } else {
             totalFinal = 0;
-            montoAhorrado = 50000;
+            montoAhorrado = 50.000;
         }
     } else if (pesoMascota === "menor2" && rsh === "hasta40menor65") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 15000;
-            montoAhorrado = 55000;
+            totalFinal = 15.000;
+            montoAhorrado = 55.000;
         } else {
-            totalFinal = 11500;
-            montoAhorrado = 38500;
+            totalFinal = 11.500;
+            montoAhorrado = 38.500;
         }
     } else if (pesoMascota === "menor2" && rsh === "entre41y70") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 21000;
-            montoAhorrado = 49000;
+            totalFinal = 21.000;
+            montoAhorrado = 49.000;
         } else {
-            totalFinal = 16000;
-            montoAhorrado = 34000;
+            totalFinal = 16.000;
+            montoAhorrado = 34.000;
         }
     } else if (pesoMascota === "menor2" && rsh === "desde71") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 30000;
-            montoAhorrado = 40000;
+            totalFinal = 30.000;
+            montoAhorrado = 40.000;
         } else {
-            totalFinal = 22500;
-            montoAhorrado = 27500;
+            totalFinal = 22.500;
+            montoAhorrado = 27.500;
         }
     } else if (pesoMascota === "menor5" && rsh === "hasta40mayor65") {
         if (tipoServicio === "conCenizas") {
             totalFinal = 0;
-            montoAhorrado = 98000;
+            montoAhorrado = 98.000;
         } else {
             totalFinal = 0;
-            montoAhorrado = 72000;
+            montoAhorrado = 72.000;
         }
     } else if (pesoMascota === "menor5" && rsh === "hasta40menor65") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 22500;
-            montoAhorrado = 75500;
+            totalFinal = 22.500;
+            montoAhorrado = 75.500;
         } else {
-            totalFinal = 17000;
-            montoAhorrado = 55000;
+            totalFinal = 17.000;
+            montoAhorrado = 55.000;
         }
     } else if (pesoMascota === "menor5" && rsh === "entre41y70") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 31500;
-            montoAhorrado = 66500;
+            totalFinal = 31.500;
+            montoAhorrado = 66.500;
         } else {
-            totalFinal = 24000;
-            montoAhorrado = 48000;
+            totalFinal = 24.000;
+            montoAhorrado = 48.000;
         }
     } else if (pesoMascota === "menor5" && rsh === "desde71") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 45000;
-            montoAhorrado = 53000;
+            totalFinal = 45.000;
+            montoAhorrado = 53.000;
         } else {
-            totalFinal = 34000;
-            montoAhorrado = 38000;
+            totalFinal = 34.000;
+            montoAhorrado = 38.000;
         }
     } else if (pesoMascota === "sobre5" && rsh === "hasta40mayor65") {
         if (tipoServicio === "conCenizas") {
             totalFinal = 0;
-            montoAhorrado = 115000;
+            montoAhorrado = 115.000;
         } else {
             totalFinal = 0;
-            montoAhorrado = 80000;
+            montoAhorrado = 80.000;
         }
     } else if (pesoMascota === "sobre5" && rsh === "hasta40menor65") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 26500;
-            montoAhorrado = 88500;
+            totalFinal = 26.500;
+            montoAhorrado = 88.500;
         } else {
-            totalFinal = 19000;
-            montoAhorrado = 61000;
+            totalFinal = 19.000;
+            montoAhorrado = 61.000;
         }
     } else if (pesoMascota === "sobre5" && rsh === "entre41y70") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 37000;
-            montoAhorrado = 78000;
+            totalFinal = 37.000;
+            montoAhorrado = 78.000;
         } else {
-            totalFinal = 26500;
-            montoAhorrado = 53500;
+            totalFinal = 26.500;
+            montoAhorrado = 53.500;
         }
     } else if (pesoMascota === "sobre5" && rsh === "desde71") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 52500;
-            montoAhorrado = 62500;
+            totalFinal = 52.500;
+            montoAhorrado = 62.500;
         } else {
-            totalFinal = 37500;
-            montoAhorrado = 42500;
+            totalFinal = 37.500;
+            montoAhorrado = 42.500;
         }
     } else if (pesoMascota === "sobre30" && rsh === "hasta40mayor65") {
         if (tipoServicio === "conCenizas") {
             totalFinal = 0;
-            montoAhorrado = 120000;
+            montoAhorrado = 120.000;
         } else {
             totalFinal = 0;
-            montoAhorrado = 96000;
+            montoAhorrado = 96.000;
         }
     } else if (pesoMascota === "sobre30" && rsh === "hasta40menor65") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 28500;
-            montoAhorrado = 91500;
+            totalFinal = 28.500;
+            montoAhorrado = 91.500;
         } else {
-            totalFinal = 22500;
-            montoAhorrado = 73500;
+            totalFinal = 22.500;
+            montoAhorrado = 73.500;
         }
     } else if (pesoMascota === "sobre30" && rsh === "entre41y70") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 39500;
-            montoAhorrado = 80500;
+            totalFinal = 39.500;
+            montoAhorrado = 80.500;
         } else {
-            totalFinal = 31500;
-            montoAhorrado = 64500;
+            totalFinal = 31.500;
+            montoAhorrado = 64.500;
         }
     } else if (pesoMascota === "sobre30" && rsh === "desde71") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 56500;
-            montoAhorrado = 63500;
+            totalFinal = 56.500;
+            montoAhorrado = 63.500;
         } else {
-            totalFinal = 45000;
-            montoAhorrado = 51000;
+            totalFinal = 45.000;
+            montoAhorrado = 51.000;
         }
     } else if (pesoMascota === "sobre50" && rsh === "hasta40mayor65") {
         if (tipoServicio === "conCenizas") {
             totalFinal = 0;
-            montoAhorrado = 140000;
+            montoAhorrado = 140.000;
         } else {
             totalFinal = 0;
-            montoAhorrado = 120000;
+            montoAhorrado = 120.000;
         }
     } else if (pesoMascota === "sobre50" && rsh === "hasta40menor65") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 32000;
-            montoAhorrado = 108000;
+            totalFinal = 32.000;
+            montoAhorrado = 108.000;
         } else {
-            totalFinal = 28500;
-            montoAhorrado = 91500;
+            totalFinal = 28.500;
+            montoAhorrado = 91.500;
         }
     } else if (pesoMascota === "sobre50" && rsh === "entre41y70") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 45000;
-            montoAhorrado = 95000;
+            totalFinal = 45.000;
+            montoAhorrado = 95.000;
         } else {
-            totalFinal = 39500;
-            montoAhorrado = 80500;
+            totalFinal = 39.500;
+            montoAhorrado = 80.500;
         }
     } else if (pesoMascota === "sobre50" && rsh === "desde71") {
         if (tipoServicio === "conCenizas") {
-            totalFinal = 64000;
-            montoAhorrado = 76000;
+            totalFinal = 64.000;
+            montoAhorrado = 76.000;
         } else {
-            totalFinal = 56500;
-            montoAhorrado = 63500;
+            totalFinal = 56.500;
+            montoAhorrado = 63.500;
         }
         function resetearPagina() {
             location.reload();
