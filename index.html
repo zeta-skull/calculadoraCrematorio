@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Calcula tu servicio de crematorio</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+	<h1>Calcula tu servicio de crematorio</h1>
+	<form>
+		<div>
+			<label for="pesoMascota">Selecciona el peso mascota:</label>
+			<select id="pesoMascota" name="pesoMascota">
+				<option>Selecciona el peso aprox.</option>
+				<option value="menor2">Menor a 2 kilos</option>
+				<option value="menor5">Menor a 5 kilos</option>
+				<option value="sobre5">Sobre 5 kilos</option>
+				<option value="sobre30">Sobre 30 kilos</option>
+				<option value="sobre50">Sobre 50 kilos</option>
+			</select>
+		</div>
+		<div>
+			<label for="rsh">Selecciona el RSH:</label>
+			<select id="rsh" name="rsh">
+				<option>Tu registro social de hogares</option>
+				<option value="hasta40mayor65">RSH hasta 40%, desde 65 años</option>
+				<option value="hasta40menor65">RSH hasta 40%, menores 65 años</option>
+				<option value="entre41y70">RSH entre 41% y 70%, todas las edades</option>
+				<option value="desde71">RSH sobre 71% o sin RSH acreditando domicilio</option>
+			</select>
+		</div>
+		<div>
+			<label for="tipoServicio">Tipo de servicio:</label>
+			<select id="tipoServicio" name="tipoServicio">
+				<option>Tipo de servicio</option>
+				<option value="conCenizas">Con cenizas</option>
+				<option value="sinCenizas">Sin cenizas</option>
+			</select>
+		</div>
+		<button type="button" onclick="calcularMonto()">Calcular Monto</button>
+		<button type="button" onclick="location.reload()">Actualizar</button>
+		<div>
+			<label for="totalFinal">Total final a pagar:</label>
+			<input type="text" id="totalFinal" readonly>
+		</div>
+		<div>
+			<label for="montoAhorrado">Monto ahorrado:</label>
+			<input type="text" id="montoAhorrado" readonly>
+		</div>
+	</form>
+	<script src="./script.js" type="text/javascript"></script>
+</body>
+
+</html>
